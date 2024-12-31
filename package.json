@@ -1,19 +1,14 @@
 {
-  "name": "my-nodejs-app",
-  "version": "1.0.0",
-  "description": "A simple Node.js app",
-  "main": "server.js",
+  "name": "nodejs-example-dynamo",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "ejs": "latest",
+    "aws-sdk": "latest",
+    "express": "latest",
+    "body-parser": "latest"
+  },
   "scripts": {
     "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",   // Example: If you're using Express, make sure it's in dependencies
-    "path": "^0.12.7",
-    "http": "^0.0.1"
-  },
-  "engines": {
-    "node": "22.x"  // Specify Node.js 22
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
