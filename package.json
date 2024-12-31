@@ -1,17 +1,19 @@
 {
   "name": "my-nodejs-app",
   "version": "1.0.0",
-  "description": "A simple Node.js app to serve HTML files",
+  "description": "A simple Node.js app",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "http": "0.0.1",
-    "fs": "0.0.1",
-    "path": "0.12.7"
+    "express": "^4.18.2",   // Example: If you're using Express, make sure it's in dependencies
+    "path": "^0.12.7",
+    "http": "^0.0.1"
   },
   "engines": {
-    "node": "14.x"
-  }
+    "node": "22.x"  // Specify Node.js 22
+  },
+  "author": "",
+  "license": "ISC"
 }
